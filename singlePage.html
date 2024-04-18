@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!--
+
+        Portfolio Website Home Page
+        Author: Laura Coombs
+        Date: March 14, 2024
+
+        Filename: index.html
+       -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="portfolio">
+    <title>Laura Coombs (CS 2350)</title>
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+</head>
+<!-- This is an option  that, if done correctly would
+allow me to change content without re-rendering page..may not be worth spending the time to learn it though-->
+<body>
+<header>
+    <!--      Image?-->
+    <!--      <img src="images/oregontrees.png" alt="PNW Image">-->
+<!--    <h2>Laura Coombs</h2>-->
+    <nav>
+        <ul class="menu">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#myWork">My Work</a></li>
+            <li><a href="#myLoves">My Loves</a></li>
+            <li><a href="#myLife">My Life</a></li>
+        </ul>
+        <script type="text/javascript">
+          var make_button_active = function()
+          {
+            //Get item siblings
+            var siblings =($(this).siblings());
+            //Remove active class on all buttons
+            siblings.each(function (index)
+              {
+                $(this).removeClass('active');
+              }
+            )
+            //Add the clicked button class
+            $(this).addClass('active');
+          }
+          //Attach events to menu
+          $(document).ready(
+            function()
+            {
+              $(".menu li").click(make_button_active);
+            }
+          )
+        </script>
+    </nav>
+</header>
+<div class="main">
+    <h2>Laura Coombs</h2>
+    <hr>
+    <div id="home">
+        <h2>Home</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+    </div>
+    <div id="myWork">
+        <h2>My Work</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+    </div>
+    <div id="myLoves">
+        <h2>My Loves</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+    </div>
+    <div id="myLife">
+        <h2>My Life</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+    </div>
+</div>
+<div id="main">
+    <!-- Contact -->
+    <article id="intro">
+
+    </article>
+</div>
+
+<article id="">
+
+</article>
+
+
+<footer>
+    <address>
+    </address>
+</footer>
+
+</body>
+</html>
