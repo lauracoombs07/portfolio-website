@@ -15,8 +15,9 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="my_work.html">My Work</a></li>
+            <li><a href="my_school.html">My School</a></li>
+            <li><a href="my_family.html">My Family</a></li>
             <li><a href="my_hobbies.html">My Hobbies</a></li>
-            <li><a href="my_life.html">My Life</a></li>
             <li class="active"><a href="contact_me.html">Contact Me</a></li>
         </ul>
     </nav>
@@ -27,14 +28,16 @@
 </header>
 <div class="main">
     <article id="home_content">
-        <h2>Contact Me</h2>
+        <div class="title-bar">
+            <h2>Contact Me</h2>
+        </div>
         <div id="icon-links">
-            <p><a href="https://github.com/lauracoombs07"><img src="images/Github_logo_PNG1.png" alt="GitHub" id="github"></a></p>
-            <p><a href="https://www.linkedin.com/in/lauracoombs7/"><img src="images/linked_in.png" alt="LinkedIn" id="linkedin"></a></p>
+            <p><a href="https://github.com/lauracoombs07" target="_blank"><img src="images/Github_logo_PNG1.png" alt="GitHub" id="github"></a></p>
+            <p><a href="https://www.linkedin.com/in/lauracoombs7/" target="_blank"><img src="images/linked_in.png" alt="LinkedIn" id="linkedin"></a></p>
         </div>
         <form
                 id="contact"
-                action="https://icarus.cs.weber.edu/~linda/cs2350/submit.phpLinks"
+                action="https://icarus.cs.weber.edu/~linda/cs2350/submit.php"
                 method="POST"
         >
             <fieldset id="form">
@@ -58,15 +61,15 @@
             <p id="form-caption">* indicates a required field</p>
             </fieldset>
             <div>
-                <input type="submit" value="Send"/>
+                <input name="submit" type="submit" value="Send"/>
             </div>
         </form>
     </article>
 </div>
-<footer>
-    <p><a href="contact_me.html">Contact Me</a></p>
-    <address>
-    </address>
-</footer>
+<!--<footer>-->
+<!--    <p><a href="contact_me.html">Contact Me</a></p>-->
+<!--    <address>-->
+<!--    </address>-->
+<!--</footer>-->
 </body>
 </html>

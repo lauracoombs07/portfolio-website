@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+#education_row {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+#helio-header, #weber-header {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+hr {
+    width: 80%
+}
+
+#helio-content {
+    padding: 0 5rem;
+}
+
+.project-header {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.project-content2 {
+    padding: 0 5rem;
+    /*width: 70%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-content {
+    padding: 0 5rem;
+    /*width: 70%;*/
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*.project-header > a:hover {*/
+/*    font-size: 1.1em;*/
+/*}*/
+
+.project-header > a:link,
+.project-header > a:visited,
+.project-header > a:active,
+.project-header > a:hover {
+    /*float: right;*/
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #469597;
+}
+
+img#assignments-website {
+    /*width: 35%;*/
+    width: 300px;
+    padding-right: 5rem;
+}
+
+img#torque-application {
+    width: 300px;
+    padding-right: 5rem;
+}

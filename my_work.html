@@ -14,8 +14,9 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="my_work.html">My Work</a></li>
+                <li><a href="my_school.html">My School</a></li>
+                <li><a href="my_family.html">My Family</a></li>
                 <li><a href="my_hobbies.html">My Hobbies</a></li>
-                <li><a href="my_life.html">My Life</a></li>
                 <li><a href="contact_me.html">Contact Me</a></li>
 
             </ul>
@@ -25,7 +26,7 @@
             <hr>
         </div>
     </header>
-    <div class="main">
+    <div class="main" id="top">
         <article id="work_content">
             <div class="title-bar">
 
@@ -34,13 +35,13 @@
                 <ul>
                     <li><a href="#skills_row">Skills</a></li>
                     <li><a href="#work_experience_row">Work Experience</a></li>
-                    <li><a href="#education_row">Education</a></li>
+<!--                    <li><a href="#education_row">Education</a></li>-->
                 </ul>
                 <button><a href="/pdfs/LauraCoombsResume__2024.pdf" download>Download Resume</a></button>
             </div>
             </div>
+            <h2>Skills</h2>
             <div id="skills_row">
-                <h2>Skills</h2>
                 <div class="skills_column">
                     <h3>Technologies</h3>
                     <ul>
@@ -58,7 +59,7 @@
                     </ul>
                 </div>
                 <div class="other_column">
-                    <h3>Other Skills</h3>
+                    <h3>Additional Skills</h3>
                     <ul>
                         <li>Agile</li>
                         <li>Extreme Programming</li>
@@ -73,7 +74,10 @@
                 </div>
             </div>
             <div id="work_experience_row">
-                <h2>Work Experience</h2>
+                <div class="header-bar">
+                    <h2>Work Experience</h2>
+                    <a href="#top">Back to Top</a>
+                </div>
                 <table>
                     <tr>
                         <th>Employer</th>
@@ -95,46 +99,37 @@
                     </tr>
                 </table>
             </div>
-            <div id="education_row">
-                <h2>Education</h2>
-                <table>
-                    <tr>
-                        <th>Class</th>
-                        <th>Semester</th>
-                        <th>Description</th>
-                        <th>Location</th>
-                    </tr>
-                    <tr>
-                        <td>CS 1030</td>
-                        <td>Spring 2024</td>
-                        <td>Foundations of Computing</td>
-                        <td>Hill AFB, Utah</td>
-                    </tr>
-                    <tr>
-                        <td>CS 1400</td>
-                        <td>Spring 2024</td>
-                        <td>Programming I</td>
-                        <td>Salt Lake City, Utah</td>
-                    </tr>
-                    <tr>
-                        <td>CS 2350</td>
-                        <td>Spring 2024</td>
-                        <td>Client Side Web Development</td>
-                        <td>Salt Lake City, Utah</td>
-                    </tr>
-                    <tr>
-                        <td>CS 2550</td>
-                        <td>Spring 2024</td>
-                        <td>Intro to Database Design</td>
-                        <td>Salt Lake City, Utah</td>
-                    </tr>
-                </table>
+            <div class="job-description">
+                <h3>Department of Defense</h3>
+                <h4>Torque: Personnel Management</h4>
+                <p>I work on a team that actively builds and maintains Scheduling applications for Aircraft
+                Maintenance Units all over the world. We currently serve 40,000 users, but that number grows every day.
+                Our primary focus is on building applications that are user-friendly and efficient, while maintaining a secure
+                    environment. Most schedulers in the Air Force are accustomed to using Excel spreadsheets to manage their
+                    schedules, technician certifications and daily manning levels. We are working to provide them with a more
+                    optimized solution that will save them time and reduce errors and can be scaled for use Air Force wide.
+                </p>
             </div>
+            <div class="job-description">
+                <h3>Helio Training</h3>
+                <h4>Mentor</h4>
+                <p>Upon graduation from the Full Stack Web Development Bootcamp, I was asked to stay on as a mentor for the next
+                    several cohorts. I was responsible for helping students with their projects, answering questions, and providing
+                    guidance on their journey to becoming a web developer. I was also responsible for grading their projects and
+                    providing feedback on their work. I loved being a mentor, and I found that I learned a lot from the students
+                    as well. I was able to see the bootcamp from a different perspective, and I was able to see the growth and
+                    development of the students as they progressed through the course.
+                </p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
         </article>
     </div>
-    <footer>
-        <address>
-        </address>
-    </footer>
+<!--    <footer>-->
+<!--        <address>-->
+<!--        </address>-->
+<!--    </footer>-->
 </body>
 </html>

@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+.main > article {
+    background-image: url("images/all_kids.jpeg");
+}
+
+/* GRID*/
+
+#photo-grid {
+    display: grid;
+    grid-gap: .25em;
+    grid-template-areas:
+        "alex cam ben kylie"
+        "alex sawyer grayson kylie";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#photo-grid > div {
+    border: 4px solid #5BA199;
+    border-radius: 4px;
+    height: 225px;
+}
+
+#photo-grid > div:first-child {
+    grid-area: alex;
+    height: 460px;
+}
+
+#photo-grid > div:nth-child(4) {
+    grid-area: kylie;
+    height: 460px;
+}
+
+img#ben-pic2 {
+    height: 225px;
+}
+img#cam-pic2 {
+    /*height: 225px;*/
+    height: 225px;
+}
+img#sawyer-pic2 {
+    height: 225px;
+}
+img#kylie-pic2, img#alexia-pic2 {
+    height: 460px;
+}
+img#grayson-pic2 {
+    height: 225px;
+    /*width: 400px;*/
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #5BA199;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.image-container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    /*white-space: nowrap;*/
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Image styles*/
+img#all_kids {
+    margin-top: 50rem;
+    -webkit-box-reflect: below 0 linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    padding-right: 150px;
+    width: 25%;
+    float: right;
+}
+
+div#pic_group {
+    display: flex;
+    flex-direction: column;
+}
+
+div.family-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img#oki {
+    width: 100%;
+    height: 400px;
+}
+
+img#korra {
+    width: 100%;
+    height: 400px;
+}
+
+img#bubbles {
+    width: 100%;
+    height: 400px;
+}
+
+div#pet-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 30%;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}

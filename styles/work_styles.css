@@ -6,24 +6,24 @@
 /*green-teal: rgb(91, 161, 153) // #5BA199*/
 /*teal: rgb(70, 149, 151) // #469597*/
 
-/* Relative Navigation Styles*/
-div#relative_navigation ul {
-    display: inline-flex;
-}
+/*!* Relative Navigation Styles*!*/
+/*div#relative_navigation ul {*/
+/*    display: inline-flex;*/
+/*}*/
 
-div#relative_navigation ul a {
-    padding: 0 1rem;
-    text-decoration: none;
-}
-div#relative_navigation ul a:active, div#relative_navigation ul a:hover {
-    text-decoration: none;
-    color: #469597;
-}
+/*div#relative_navigation ul a {*/
+/*    padding: 0 1rem;*/
+/*    text-decoration: none;*/
+/*}*/
+/*div#relative_navigation ul a:active, div#relative_navigation ul a:hover {*/
+/*    text-decoration: none;*/
+/*    color: #469597;*/
+/*}*/
 
-div#relative_navigation ul a:visited, div#relative_navigation ul a:link {
-    text-decoration: none;
-    color: #469597;
-}
+/*div#relative_navigation ul a:visited, div#relative_navigation ul a:link {*/
+/*    text-decoration: none;*/
+/*    color: #469597;*/
+/*}*/
 
 ul li {
     /*width: 25%;*/
@@ -45,28 +45,17 @@ button > a {
     text-decoration: none;
 }
 
-/* Table styles */
-
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 90%;
-}
-
-td, th {
-    padding: 12px 2px;
-    border-bottom: 3px double rgb(70, 149, 151);
-    /*border-bottom: 1px solid black;*/
-    text-align: left;
-}
-
-th {
-    font-weight: bolder;
-}
-
 #skills_row {
-    width: 100%;
+    margin: 0 auto;
+    padding: 5rem;
+    border-radius: 12px;
+    width: 50%;
     height: 25rem;
+    background-color: rgba(221, 190, 170, 0.5);
+}
+
+div#skills {
+    margin: 0 auto;
 }
 
 .skills_column > ul li {
@@ -79,15 +68,15 @@ th {
 .skills_column {
     text-align: right;
     float: left;
-    width: 20%;
-    padding: 0 15px;
+    /*width: 20%;*/
+    padding: 0 15px 0 60px;
 }
 
 .other_column {
     border-left: 5px solid rgb(70, 149, 151);
     height: 100%;
     float: left;
-    width: 70%;
+    /*width: 70%;*/
     padding: 0 15px;
 }
 
@@ -120,4 +109,10 @@ th {
     padding-top: 10rem;
 }
 
-
+.job-description {
+    margin: 4rem auto;
+}
+.job-description > p {
+    text-align: justify;
+    margin: 0 2rem;
+}
