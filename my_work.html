@@ -5,37 +5,131 @@
     <meta name="keywords" content="portfolio">
     <title>Laura Coombs (CS 2350)</title>
     <link rel="stylesheet" type="text/css" href="/styles/styles.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="/styles/work_styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/helio.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fauna+One&display=swap" rel="stylesheet"></head>
 <body>
     <header>
-        <!--  Image?-->
-        <!--  <img src="images/oregontrees.png" alt="PNW Image">-->
-        <!--  <h2>Laura Coombs</h2>-->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="my_work.html">My Work</a></li>
-                <li><a href="my_loves.html">My Loves</a></li>
+                <li><a href="my_hobbies.html">My Hobbies</a></li>
                 <li><a href="my_life.html">My Life</a></li>
+                <li><a href="contact_me.html">Contact Me</a></li>
+
             </ul>
         </nav>
+        <div id="name_header">
+            <h2>Laura Coombs</h2>
+            <hr>
+        </div>
     </header>
     <div class="main">
-        <h2>Laura Coombs</h2>
-        <hr>
         <article id="work_content">
+            <div class="title-bar">
+
             <h2>My Work</h2>
-            <h3>Torque</h3>
-            <h5>Teams App</h5>
-            <h3>School</h3>
-            <h5>CS 1030 Foundations</h5>
-            <h6>Projects</h6>
-            <h5>CS 1400 Introduction to Programming</h5>
-            <h6>Projects</h6>
-            <h5>CS 2550 Database</h5>
-            <h6>Projects</h6>
-            <h5>CS 2350 Client Side Web Development</h5>
-            <h6>Projects</h6>
+            <div id="relative_navigation">
+                <ul>
+                    <li><a href="#skills_row">Skills</a></li>
+                    <li><a href="#work_experience_row">Work Experience</a></li>
+                    <li><a href="#education_row">Education</a></li>
+                </ul>
+                <button><a href="/pdfs/LauraCoombsResume__2024.pdf" download>Download Resume</a></button>
+            </div>
+            </div>
+            <div id="skills_row">
+                <h2>Skills</h2>
+                <div class="skills_column">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Typescript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>RTK Query</li>
+                        <li>PostgreSQL</li>
+                        <li>Git</li>
+                        <li>SpringBoot</li>
+                        <li>Rest APIs</li>
+                    </ul>
+                </div>
+                <div class="other_column">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Agile</li>
+                        <li>Extreme Programming</li>
+                        <li>Scrum</li>
+                        <li>Team Player</li>
+                        <li>Excellent Communication</li>
+                        <li>Leadership</li>
+                        <li>Creativity</li>
+                        <li>Problem Solving</li>
+                        <li>Growth Mindset</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="work_experience_row">
+                <h2>Work Experience</h2>
+                <table>
+                    <tr>
+                        <th>Employer</th>
+                        <th>Position</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Department of Defense</td>
+                        <td>Full Stack Web Developer</td>
+                        <td>January 2020 - Present</td>
+                        <td>Hill AFB, Utah</td>
+                    </tr>
+                    <tr>
+                        <td>Helio</td>
+                        <td>Mentor</td>
+                        <td>March 2018 - December 2018</td>
+                        <td>Salt Lake City, Utah</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="education_row">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>Class</th>
+                        <th>Semester</th>
+                        <th>Description</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>CS 1030</td>
+                        <td>Spring 2024</td>
+                        <td>Foundations of Computing</td>
+                        <td>Hill AFB, Utah</td>
+                    </tr>
+                    <tr>
+                        <td>CS 1400</td>
+                        <td>Spring 2024</td>
+                        <td>Programming I</td>
+                        <td>Salt Lake City, Utah</td>
+                    </tr>
+                    <tr>
+                        <td>CS 2350</td>
+                        <td>Spring 2024</td>
+                        <td>Client Side Web Development</td>
+                        <td>Salt Lake City, Utah</td>
+                    </tr>
+                    <tr>
+                        <td>CS 2550</td>
+                        <td>Spring 2024</td>
+                        <td>Intro to Database Design</td>
+                        <td>Salt Lake City, Utah</td>
+                    </tr>
+                </table>
+            </div>
         </article>
     </div>
     <footer>

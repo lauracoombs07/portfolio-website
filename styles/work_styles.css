@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/*blush: rgb(221, 190, 170) // #DDBEAA*/
+/*light-gray: rgb(229, 227, 228) // #E5E3E4*/
+/*soft-teal: rgb(187, 198, 200) // #BBC6C8*/
+/*green-teal: rgb(91, 161, 153) // #5BA199*/
+/*teal: rgb(70, 149, 151) // #469597*/
+
+/* Relative Navigation Styles*/
+div#relative_navigation ul {
+    display: inline-flex;
+}
+
+div#relative_navigation ul a {
+    padding: 0 1rem;
+    text-decoration: none;
+}
+div#relative_navigation ul a:active, div#relative_navigation ul a:hover {
+    text-decoration: none;
+    color: #469597;
+}
+
+div#relative_navigation ul a:visited, div#relative_navigation ul a:link {
+    text-decoration: none;
+    color: #469597;
+}
+
+ul li {
+    /*width: 25%;*/
+    list-style-type: none;
+}
+
+button {
+    background-color: #5BA199;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Table styles */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+}
+
+td, th {
+    padding: 12px 2px;
+    border-bottom: 3px double rgb(70, 149, 151);
+    /*border-bottom: 1px solid black;*/
+    text-align: left;
+}
+
+th {
+    font-weight: bolder;
+}
+
+#skills_row {
+    width: 100%;
+    height: 25rem;
+}
+
+.skills_column > ul li {
+    /*width: 25%;*/
+    text-align: right;
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+.skills_column {
+    text-align: right;
+    float: left;
+    width: 20%;
+    padding: 0 15px;
+}
+
+.other_column {
+    border-left: 5px solid rgb(70, 149, 151);
+    height: 100%;
+    float: left;
+    width: 70%;
+    padding: 0 15px;
+}
+
+.other_column > ul {
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.other_column > ul li {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* Clear floats after the columns */
+
+.skills_row::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 10rem;
+}
+
+#work_experience_row {
+    padding-top: 10rem;
+}
+
+#education_row {
+    padding-top: 10rem;
+}
+
+

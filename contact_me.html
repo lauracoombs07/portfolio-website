@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="portfolio">
+    <title>Laura Coombs (CS 2350)</title>
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles/contact_me_styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/helio.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fauna+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my_work.html">My Work</a></li>
+            <li><a href="my_hobbies.html">My Hobbies</a></li>
+            <li><a href="my_life.html">My Life</a></li>
+            <li class="active"><a href="contact_me.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div id="name_header">
+        <h2>Laura Coombs</h2>
+        <hr>
+    </div>
+</header>
+<div class="main">
+    <article id="home_content">
+        <h2>Contact Me</h2>
+        <div id="icon-links">
+            <p><a href="https://github.com/lauracoombs07"><img src="images/Github_logo_PNG1.png" alt="GitHub" id="github"></a></p>
+            <p><a href="https://www.linkedin.com/in/lauracoombs7/"><img src="images/linked_in.png" alt="LinkedIn" id="linkedin"></a></p>
+        </div>
+        <form
+                id="contact"
+                action="https://icarus.cs.weber.edu/~linda/cs2350/submit.phpLinks"
+                method="POST"
+        >
+            <fieldset id="form">
+                <legend>Send me a Message</legend>
+                <div class="form-field">
+                    <label for="nameBox">Name*</label>
+                    <input name="name" id="nameBox" type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="emailBox">Email*</label>
+                    <input name="phoneNumber" id="emailBox" type="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="phoneBox">Phone</label>
+                    <input name="phoneNumber" id="phoneBox" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                </div>
+                <div class="form-field">
+                    <label for="messageBox">Message</label>
+                    <textarea name="message" id="messageBox" placeholder="Message..." rows="10"></textarea>
+                </div>
+            <p id="form-caption">* indicates a required field</p>
+            </fieldset>
+            <div>
+                <input type="submit" value="Send"/>
+            </div>
+        </form>
+    </article>
+</div>
+<footer>
+    <p><a href="contact_me.html">Contact Me</a></p>
+    <address>
+    </address>
+</footer>
+</body>
+</html>

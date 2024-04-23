@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 3 column styles*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns! */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
